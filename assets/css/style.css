@@ -1,0 +1,17 @@
+* {
+  font-family: poppins;
+}
+li {
+  list-style: none;
+}
+.edu-wraper {
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+}
+.edu-container {
+  background-color: #fff;
+  width: 640px;
+  height: 545px;
+  border-radius: 10px;
+}
