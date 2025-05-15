@@ -30,4 +30,42 @@ li {
 }
 .edu-header .header-info {
   background-color: #137814;
+  border-radius: 0px 10px 10px 0px;
+}
+.edu-header .header-info .header-top {
+  display: flex;
+  justify-content: space-between;
+}
+.edu-header .header-info .header-top h2 {
+  color: #95e17d;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 22px;
+  padding: 15px 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.edu-header .header-info hr {
+  margin: 0px;
+  border-block-start: 1px solid #95e17d;
+}
+.edu-header .header-info h2 {
+  font-size: 15px;
+  color: aliceblue;
+  padding: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.edu-header .header-info p {
+  font-size: 11px;
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  background-image: url(../../bar_bk.jpg);
+}
+.edu-header .header-info p :hover {
+  /* background-color: #fff; */
+  color: #95e17d;
 }
