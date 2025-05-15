@@ -84,6 +84,7 @@ li {
   display: flex;
   font-size: 12px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .edu-body .result-form .form-field-row label {
   font-size: 12px;
@@ -102,4 +103,28 @@ li {
   border: 1px solid #999;
   width: 200px;
   background-color: #f4f0f2;
+  font-size: 12px;
+}
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.btns button {
+  appearance: auto;
+  user-select: none;
+  align-items: flex-start;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: buttonface;
+  color: buttontext;
+  white-space: pre;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-width: 1px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  border-radius: 3px;
 }
